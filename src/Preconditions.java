@@ -27,4 +27,5 @@ public class Preconditions {
 		if (index >=size || index <0) throw new IndexOutOfBoundsException();
 		else return index;
 	}
+	
 }
